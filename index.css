@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+}
+
+.boss{
+    border: 10px solid blueviolet;
+    height: 600px;
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.worker{
+    height: 400px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px;
+    transition: .5s;
+}
+.worker:hover{
+    box-shadow: 30px 30px 90px;
+    transition: .5s;
+}
+h1{
+    color: black;
+    transition: .5s;
+}
+h1:hover{
+    border: 5px solid black;
+    background: blue;
+    color: yellow;
+    transition: .5s;
+}
+.noob{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+img{
+    height: 200px;
+    width: 100%;
+}
+button{
+    margin: 3px 3px 10px
+}
